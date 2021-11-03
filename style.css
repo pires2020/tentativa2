@@ -1,0 +1,33 @@
+body
+{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu-h{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(27, 27, 27);
+}
+
+#menu-h li{
+    display: inline;
+    padding: 20px;
+}
+
+#menu-h li a{
+    display: inline;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+    color: rgb(192, 189, 189)
+}
+
+#menu-h li a:hover{
+    background-color: cyan;
+}
+#menu-h li:last-child a{
+    float: right;
+    background-color: rgb(41, 70, 70);
+}
