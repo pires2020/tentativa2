@@ -114,9 +114,8 @@
     transform: rotate(45deg) translate(-5px, -7px);
   }
   body {
-    background-image: url(waljpg);
+    background-image: url(wal.jpg);
     background-color: black;
-
   }
   .container{
     display: inline-flex;
