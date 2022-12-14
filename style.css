@@ -122,9 +122,10 @@
 }
 .container{
     display: inline-flex;
+    text-align: center;
 }
 .container .estatico{
-    color: rgb(255, 252, 252);
+    color: rgb(0, 0, 0);
     font-size: 60px;
     font-weight: 400;
 }
@@ -167,4 +168,10 @@
         left: 100%;
         margin: 0 -35px 0 35px;
     }
+}
+div.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
